@@ -1,0 +1,15 @@
+punctuation.section.embedded {
+    &.begin.php,
+    &.end.php {
+        foreground: $blue;
+    }
+}
+
+keyword.control.import.include.php {
+    foreground: $yellow;
+}
+
+entity.name.class.php {
+    foreground: $white;
+}
+

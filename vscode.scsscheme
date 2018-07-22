@@ -1,0 +1,132 @@
+@name "vscode";
+
+$blue: #569cd6;
+$blue_light: #9cdcfe;
+$yellow: #dcdcaa;
+$yellow_dark: #d7ba7d;
+$white: #d4d4d4;
+$green: #4EC9B0;
+$green_light: #b5cea8;
+$purple: #C586C0;
+
+* {
+    background: #1E1E1E;
+    foreground: $white;
+
+    caret: $white;
+    lineHighlight: transparentize(#ADD6FF, 0.85);
+    selection: transparentize(#ADD6FF, 0.85);
+}
+
+variable {
+    foreground: $blue_light;
+
+    &.language {
+        foreground: $blue;
+    }
+    &.parameter {
+        foreground: $blue_light;
+    }
+    &.function {
+        foreground: $yellow;
+    }
+}
+
+comment {
+    foreground: #608b4e;
+}
+
+storage {
+    &.type {
+        foreground: $blue;
+    }
+    &.modifier {
+        foreground: $blue;
+    }
+}
+
+entity {
+    &.name {
+        foreground: $green;
+
+        &.function {
+            foreground: $yellow;
+        }
+        &.section {
+            foreground: red;
+        }
+        &.tag {
+            foreground: $blue;
+        }
+    }
+
+    &.other {
+        &.inherited-class {
+            foreground: $green;
+        }
+        &.attribute-name {
+            foreground: $blue_light;
+        }
+    }
+}
+
+support {
+    &.class {
+        foreground: $green;
+    }
+    &.function {
+        foreground: $yellow;
+    }
+}
+
+string {
+    foreground: #ce9178;
+}
+
+keyword {
+    foreground: $blue;
+
+    &.control {
+        foreground: $purple;
+
+        &.import.include.php {
+            foreground: $yellow;
+        }
+    }
+    &.operator {
+        foreground: $white;
+    }
+}
+
+constant {
+    foreground: $blue;
+
+    &.numeric {
+        foreground: $green_light;
+    }
+
+    &.language {
+        foreground: $blue;
+    }
+
+    &.character.escape {
+        foreground: $yellow_dark;
+    }
+}
+
+invalid {
+    foreground: red;
+
+    &.deprecated {
+        foreground: red;
+    }
+}
+
+meta.function.parameters {
+    support.class {
+        foreground: $blue;
+    }
+}
+
+@import "languages/php";
+@import "languages/json";

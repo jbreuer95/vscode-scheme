@@ -1,0 +1,102 @@
+// COLOR SCHEME TEST "THEMES/vscode.tmTheme" "JSON"
+    {
+//  ^ fg=#d4d4d4 fs=
+        "glossary": {
+//      ^^^^^^^^^^ fg=#9cdcfe fs=
+//                ^ fg=#d4d4d4 fs=
+//                  ^ fg=#d4d4d4 fs=
+            "title": "example glossary",
+//          ^^^^^^^ fg=#9cdcfe fs=
+//                 ^ fg=#d4d4d4 fs=
+//                   ^^^^^^^^ fg=#ce9178 fs=
+//                            ^^^^^^^^^ fg=#ce9178 fs=
+//                                     ^ fg=#d4d4d4 fs=
+            "GlossDiv": {
+//          ^^^^^^^^^^ fg=#9cdcfe fs=
+//                    ^ fg=#d4d4d4 fs=
+//                      ^ fg=#d4d4d4 fs=
+                "title": "S",
+//              ^^^^^^^ fg=#9cdcfe fs=
+//                     ^ fg=#d4d4d4 fs=
+//                       ^^^ fg=#ce9178 fs=
+//                          ^ fg=#d4d4d4 fs=
+                "GlossList": {
+//              ^^^^^^^^^^^ fg=#9cdcfe fs=
+//                         ^ fg=#d4d4d4 fs=
+//                           ^ fg=#d4d4d4 fs=
+                    "GlossEntry": {
+//                  ^^^^^^^^^^^^ fg=#9cdcfe fs=
+//                              ^ fg=#d4d4d4 fs=
+//                                ^ fg=#d4d4d4 fs=
+                        "ID": "SGML",
+//                      ^^^^ fg=#9cdcfe fs=
+//                          ^ fg=#d4d4d4 fs=
+//                            ^^^^^^ fg=#ce9178 fs=
+//                                  ^ fg=#d4d4d4 fs=
+                        "SortAs": "SGML",
+//                      ^^^^^^^^ fg=#9cdcfe fs=
+//                              ^ fg=#d4d4d4 fs=
+//                                ^^^^^^ fg=#ce9178 fs=
+//                                      ^ fg=#d4d4d4 fs=
+                        "GlossTerm": "Standard Generalized Markup Language",
+//                      ^^^^^^^^^^^ fg=#9cdcfe fs=
+//                                 ^ fg=#d4d4d4 fs=
+//                                   ^^^^^^^^^ fg=#ce9178 fs=
+//                                             ^^^^^^^^^^^ fg=#ce9178 fs=
+//                                                         ^^^^^^ fg=#ce9178 fs=
+//                                                                ^^^^^^^^^ fg=#ce9178 fs=
+//                                                                         ^ fg=#d4d4d4 fs=
+                        "Acronym": "SGML",
+//                      ^^^^^^^^^ fg=#9cdcfe fs=
+//                               ^ fg=#d4d4d4 fs=
+//                                 ^^^^^^ fg=#ce9178 fs=
+//                                       ^ fg=#d4d4d4 fs=
+                        "Abbrev": "ISO 8879:1986",
+//                      ^^^^^^^^ fg=#9cdcfe fs=
+//                              ^ fg=#d4d4d4 fs=
+//                                ^^^^ fg=#ce9178 fs=
+//                                     ^^^^^^^^^^ fg=#ce9178 fs=
+//                                               ^ fg=#d4d4d4 fs=
+                        "GlossDef": {
+//                      ^^^^^^^^^^ fg=#9cdcfe fs=
+//                                ^ fg=#d4d4d4 fs=
+//                                  ^ fg=#d4d4d4 fs=
+                            "para": "A meta-markup language, used to create markup languages such as DocBook.",
+//                          ^^^^^^ fg=#9cdcfe fs=
+//                                ^ fg=#d4d4d4 fs=
+//                                  ^^ fg=#ce9178 fs=
+//                                     ^^^^^^^^^^^ fg=#ce9178 fs=
+//                                                 ^^^^^^^^^ fg=#ce9178 fs=
+//                                                           ^^^^ fg=#ce9178 fs=
+//                                                                ^^ fg=#ce9178 fs=
+//                                                                   ^^^^^^ fg=#ce9178 fs=
+//                                                                          ^^^^^^ fg=#ce9178 fs=
+//                                                                                 ^^^^^^^^^ fg=#ce9178 fs=
+//                                                                                           ^^^^ fg=#ce9178 fs=
+//                                                                                                ^^ fg=#ce9178 fs=
+//                                                                                                   ^^^^^^^^^ fg=#ce9178 fs=
+//                                                                                                            ^ fg=#d4d4d4 fs=
+                            "GlossSeeAlso": ["GML", "XML"]
+//                          ^^^^^^^^^^^^^^ fg=#9cdcfe fs=
+//                                        ^ fg=#d4d4d4 fs=
+//                                          ^ fg=#d4d4d4 fs=
+//                                           ^^^^^ fg=#ce9178 fs=
+//                                                ^ fg=#d4d4d4 fs=
+//                                                  ^^^^^ fg=#ce9178 fs=
+//                                                       ^ fg=#d4d4d4 fs=
+                        },
+//                      ^^ fg=#d4d4d4 fs=
+                        "GlossSee": "markup"
+//                      ^^^^^^^^^^ fg=#9cdcfe fs=
+//                                ^ fg=#d4d4d4 fs=
+//                                  ^^^^^^^^ fg=#ce9178 fs=
+                    }
+//                  ^ fg=#d4d4d4 fs=
+                }
+//              ^ fg=#d4d4d4 fs=
+            }
+//          ^ fg=#d4d4d4 fs=
+        }
+//      ^ fg=#d4d4d4 fs=
+    }
+//  ^ fg=#d4d4d4 fs=
