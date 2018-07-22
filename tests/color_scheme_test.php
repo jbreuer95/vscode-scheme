@@ -1,4 +1,4 @@
-<?php // COLOR SCHEME TEST "THEMES/vscode.tmTheme" "PHP"
+<?php // COLOR SCHEME TEST "vscode-scheme/vscode.tmTheme" "PHP"
 
 require_once($GLOBALS['g_campsiteDir']. "/$ADMIN_DIR/country/common.php");
 // ^^^^^^^^^ fg=#dcdcaa fs=
